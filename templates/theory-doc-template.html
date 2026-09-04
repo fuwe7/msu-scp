@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{{DOC_TITLE}} - Научный отдел К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <article class="theory-doc">
+      <header class="doc-header">
+        <h1>Научный отдел теории лиминальных пространств</h1>
+        <h2>Исследовательский документ № {{DOC_ID}}</h2>
+        <div class="meta-info">
+          <p><strong>Статус:</strong> {{STATUS}}</p>
+          <p><strong>Уровень доступа:</strong> {{ACCESS_LEVEL}}</p>
+        </div>
+      </header>
+      
+      <section class="theory-content">
+        <h3 class="doc-title">{{DOC_TITLE}}</h3>
+        <div class="content-block text-justify">
+          {{THEORY_CONTENT}}
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

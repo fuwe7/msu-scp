@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>База Объектов и Локаций - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <div class="hub-header">
+      <h1>Каталог зарегистрированных аномалий</h1>
+      <p>Архив Комитета Исследования Паранормального Пространства.</p>
+    </div>
+    
+    <div class="class-legend">
+      <h3>Легенда классов опасности:</h3>
+      <ul>
+        <li><span class="hazard-class class-safe">Низкая / Безопасный</span> - Аномалия полностью понята или надежно содержится.</li>
+        <li><span class="hazard-class class-euclid">Средняя / Евклид</span> - Поведение непредсказуемо, требует постоянного наблюдения.</li>
+        <li><span class="hazard-class class-keter">Высокая / Кетер</span> - Крайне враждебная или сложно сдерживаемая аномалия.</li>
+        <li><span class="hazard-class class-fatal">Смертельный</span> - Неизбежная гибель при контакте.</li>
+      </ul>
+    </div>
+    
+    <section id="scp-msu" class="hub-section">
+      <h2>Автономные объекты (SCP-MSU)</h2>
+      <ul class="item-list">
+        {{SCP_OBJECTS_LIST}}
+      </ul>
+    </section>
+    
+    <section id="locations" class="hub-section">
+      <h2>Лиминальные пространства (ЛП)</h2>
+      <ul class="item-list">
+        {{LOCATIONS_LIST}}
+      </ul>
+    </section>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

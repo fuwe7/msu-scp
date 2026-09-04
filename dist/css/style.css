@@ -1,0 +1,58 @@
+
+:root {
+  --bg-color: #0a0a0a;
+  --doc-bg: #141414;
+  --text-main: #d3d3d3;
+  --text-muted: #888888;
+  --border-color: #333333;
+  --accent-color: #aa0000;
+  --safe-color: #2e7d32;
+  --euclid-color: #f57f17;
+  --keter-color: #c62828;
+  --fatal-color: #000000;
+  --font-family: 'Courier New', Courier, monospace;
+}
+
+body { 
+  margin: 0; padding: 0; background-color: var(--bg-color); 
+  color: var(--text-main); font-family: var(--font-family); line-height: 1.6; 
+}
+.site-header { 
+  background-color: #000; color: #fff; padding: 1.5rem 2rem; 
+  border-bottom: 2px solid var(--accent-color); 
+}
+.site-footer { 
+  background-color: #000; color: #fff; padding: 1rem 2rem; 
+  border-top: 1px solid var(--border-color); text-align: center;
+}
+.site-header a, .site-footer a { color: #ccc; text-decoration: none; }
+.site-header a:hover { color: #fff; text-decoration: underline; }
+.logo-container { border-bottom: 1px solid #444; padding-bottom: 0.5rem; margin-bottom: 0.5rem; }
+.logo { font-size: 1.8rem; font-weight: bold; letter-spacing: 3px; color: var(--text-main); }
+.subtitle { font-size: 0.9rem; color: var(--text-muted); }
+.main-nav ul { list-style: none; padding: 0; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.main-nav li { position: relative; }
+
+.document-container {
+  max-width: 900px; margin: 2rem auto; padding: 2rem; 
+  background-color: var(--doc-bg); border: 1px solid var(--border-color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.home-grid {
+  display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; max-width: 1200px;
+}
+@media (max-width: 768px) {
+  .home-grid { grid-template-columns: 1fr; }
+  .document-container { margin: 1rem; padding: 1rem; }
+}
+
+h1, h2, h3 { border-bottom: 1px solid var(--border-color); padding-bottom: 0.3rem; }
+.warning-banner {
+  background-color: var(--accent-color); color: #fff; font-weight: bold;
+  padding: 1rem; border: 2px solid #ff0000; margin-bottom: 1rem; text-align: center;
+}
+.compact-list { padding-left: 1.5rem; }
+.compact-list li { margin-bottom: 0.5rem; }
+.status-ok { color: var(--safe-color); font-weight: bold; }
+a { color: var(--text-main); text-decoration: underline; }
+a:hover { color: #fff; }

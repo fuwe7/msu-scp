@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Архив Инцидентов и Рассказов - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <div class="hub-header">
+      <h1>Архив Инцидентов, Теорий и Рассказов</h1>
+      <p>Документация, научные исследования и личные записи сотрудников.</p>
+    </div>
+    
+    <div class="filters">
+      <span class="filter-label">Фильтры:</span>
+      <a href="#theory" class="btn filter-btn">Научные теории (ТЛП)</a>
+      <a href="#incidents" class="btn filter-btn">Инциденты (АН)</a>
+      <a href="#tales" class="btn filter-btn">Рассказы и записи</a>
+    </div>
+    
+    <section id="theory" class="hub-section">
+      <h2>Научные теории лиминальных пространств</h2>
+      <ul class="item-list tale-list">
+        {{THEORY_LIST}}
+      </ul>
+    </section>
+    
+    <section id="incidents" class="hub-section">
+      <h2>Отчеты об инцидентах</h2>
+      <ul class="item-list tale-list">
+        {{INCIDENTS_LIST}}
+      </ul>
+    </section>
+    
+    <section id="tales" class="hub-section">
+      <h2>Служебные и личные записи</h2>
+      <ul class="item-list tale-list">
+        {{TALES_LIST}}
+      </ul>
+      
+      <div class="pagination">
+        {{PAGINATION}}
+      </div>
+    </section>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

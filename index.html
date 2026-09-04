@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Главная - База данных К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container home-grid">
+    <div class="main-column">
+      <section class="featured-tale">
+        <div class="warning-banner">
+          ВНИМАНИЕ: ОБНАРУЖЕН НЕЗАРЕГИСТРИРОВАННЫЙ ДОСТУП. ИНИЦИАЛИЗАЦИЯ ПРОТОКОЛА ОТСЛЕЖИВАНИЯ...
+        </div>
+        
+        <div class="intro-tale-placeholder">
+          {{INTRO_TALE}}
+        </div>
+      </section>
+    </div>
+    
+    <aside class="sidebar-column">
+      <section class="news-widget">
+        <h3>Новые объекты</h3>
+        <ul class="compact-list">
+          {{NEW_OBJECTS_LIST}}
+        </ul>
+      </section>
+      
+      <section class="news-widget">
+        <h3>Новые документы</h3>
+        <ul class="compact-list">
+          {{NEW_DOCS_LIST}}
+        </ul>
+      </section>
+      
+      <section class="system-status">
+        <h3>Статус системы</h3>
+        <p>Подключение к узлу: <span class="status-ok">Стабильно</span></p>
+        <p>События Сопряжения (24ч): 0</p>
+        <p>Активные экспедиции: 2</p>
+      </section>
+    </aside>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

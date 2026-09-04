@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Досье локации: {{LOCATION_ID}} - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <article class="location-dossier">
+      <header class="dossier-header">
+        <h1>Отдел исследования лиминальных пространств</h1>
+        <h2>Досье аномальной локации № {{LOCATION_ID}}</h2>
+      </header>
+      
+      <div class="meta-info">
+        <p><strong>Кодовое название:</strong> «{{CODENAME}}»</p>
+        <p><strong>Статус:</strong> {{STATUS}}</p>
+        <p><strong>Уровень доступа:</strong> {{ACCESS_LEVEL}}</p>
+      </div>
+      
+      <section class="general-info">
+        <h3>Общая информация</h3>
+        <div class="content-block">
+          {{GENERAL_INFO}}
+        </div>
+      </section>
+      
+      <section class="spatial-structure">
+        <h3>Пространственная структура</h3>
+        <div class="content-block">
+          {{SPATIAL_STRUCTURE}}
+        </div>
+      </section>
+      
+      <section class="zones">
+        <h3>Структура локации (Зоны)</h3>
+        <div class="content-block">
+          {{ZONES_INFO}}
+        </div>
+      </section>
+      
+      <nav class="document-nav">
+        <a href="/templates/hub-template.html#locations" class="btn">Каталог локаций</a>
+      </nav>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

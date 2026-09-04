@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{{OBJECT_ID}} - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <article class="scp-article">
+      <h1 class="document-title">Объект №: {{OBJECT_ID}}</h1>
+      
+      <div class="meta-info">
+        <p><strong>Класс объекта:</strong> <span class="hazard-class class-{{HAZARD_CLASS_LOWER}}">{{HAZARD_CLASS}}</span></p>
+        <p><strong>Уровень доступа:</strong> {{ACCESS_LEVEL}}</p>
+      </div>
+      
+      <section class="containment-procedures">
+        <h2>Особые условия содержания:</h2>
+        <div class="content-block">
+          {{CONTAINMENT_PROCEDURES}}
+        </div>
+      </section>
+      
+      <section class="description">
+        <h2>Описание:</h2>
+        <div class="content-block">
+          {{DESCRIPTION}}
+        </div>
+      </section>
+      
+      <section class="addendum">
+        <h2>Приложение:</h2>
+        <div class="content-block">
+          {{ADDENDUM_CONTENT}}
+        </div>
+      </section>
+      
+      <nav class="document-nav">
+        <a href="{{PREV_LINK}}" class="btn">« Предыдущий</a>
+        <a href="/templates/hub-template.html" class="btn">Каталог</a>
+        <a href="{{NEXT_LINK}}" class="btn">Следующий »</a>
+      </nav>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

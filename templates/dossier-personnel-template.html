@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Личное дело: {{PERSONNEL_NAME}} - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <article class="personnel-dossier">
+      <header class="dossier-header">
+        <h1>Отдел кадров К.И.П.П.</h1>
+        <h2>Личное дело № {{PERSONNEL_ID}}</h2>
+      </header>
+      
+      <div class="personnel-profile">
+        <div class="photo-placeholder">
+          [ФОТОГРАФИЯ УДАЛЕНА]
+        </div>
+        <div class="meta-info">
+          <p><strong>Имя:</strong> {{PERSONNEL_NAME}}</p>
+          <p><strong>Должность:</strong> {{POSITION}}</p>
+          <p><strong>Уровень допуска:</strong> {{ACCESS_LEVEL}}</p>
+          <p><strong>Статус:</strong> {{STATUS}}</p>
+        </div>
+      </div>
+      
+      <section class="personnel-history">
+        <h3>Послужной список</h3>
+        <div class="content-block">
+          {{HISTORY_CONTENT}}
+        </div>
+      </section>
+      
+      <section class="personnel-notes">
+        <h3>Приложения / Заметки</h3>
+        <div class="content-block">
+          {{NOTES_CONTENT}}
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Архив инцидента {{INCIDENT_ID}} - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <article class="incident-report">
+      <header class="report-header warning-border">
+        <h1>Архив научных наблюдений / Отчет об инциденте</h1>
+        <h2>Документ № {{INCIDENT_ID}}</h2>
+        <div class="meta-info">
+          <p><strong>Дата:</strong> {{DATE}}</p>
+          <p><strong>Уровень доступа:</strong> {{ACCESS_LEVEL}}</p>
+        </div>
+      </header>
+      
+      <section class="incident-description">
+        <h3>ОПИСАНИЕ ИНЦИДЕНТА / ЯВЛЕНИЯ</h3>
+        <div class="content-block">
+          {{INCIDENT_DESCRIPTION}}
+        </div>
+      </section>
+      
+      <section class="incident-phases">
+        <h3>ЭТАПЫ СОБЫТИЯ</h3>
+        <div class="content-block">
+          {{PHASES_CONTENT}}
+        </div>
+      </section>
+      
+      <section class="incident-conclusions">
+        <h3>ВЫВОДЫ</h3>
+        <div class="content-block">
+          {{CONCLUSIONS}}
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

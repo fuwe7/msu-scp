@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>{{TALE_TITLE}} - Архив К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container tale-container">
+    <article class="tale">
+      <header class="tale-header">
+        <h1 class="tale-title">{{TALE_TITLE}}</h1>
+        <div class="tale-meta">
+          <span class="author">Автор/Источник: {{AUTHOR}}</span> | 
+          <span class="date">Дата записи: {{DATE}}</span>
+        </div>
+      </header>
+      
+      <div class="tale-content">
+        {{TALE_CONTENT}}
+      </div>
+      
+      <nav class="document-nav">
+        <a href="/templates/tales-hub.html" class="btn">Архив рассказов</a>
+      </nav>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>

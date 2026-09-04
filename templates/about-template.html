@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О {{ORG_NAME}} - К.И.П.П.</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{INCLUDE_HEADER}}
+  
+  <main class="document-container">
+    <article class="about-page">
+      <header class="doc-header">
+        <h1>Информация о структуре</h1>
+        <h2>{{ORG_NAME}}</h2>
+      </header>
+      
+      <div class="warning-banner">
+        {{WARNING_TEXT}}
+      </div>
+      
+      <section class="mission">
+        <h3>Цели и задачи</h3>
+        <div class="content-block">
+          {{MISSION_TEXT}}
+        </div>
+      </section>
+      
+      <section class="departments">
+        <h3>Основные подразделения</h3>
+        <div class="content-block">
+          {{DEPARTMENTS}}
+        </div>
+      </section>
+      
+      <section class="access-levels">
+        <h3>Уровни доступа и секретности</h3>
+        <div class="content-block">
+          {{ACCESS_LEVELS}}
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  {{INCLUDE_FOOTER}}
+</body>
+</html>
