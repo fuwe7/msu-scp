@@ -43,3 +43,5 @@ Content: scp-msu-033-01.md — round_counter: 2 — known limitations: не по
   - Механика пагинации "Следующий/Предыдущий" временно перенаправляет на Главную страницу.
   - lp-33-ofis.md: неточная температура, экспоненциальная тревога.
   - scp-msu-004.md: необъяснимая связь дрона через Завесу.
+
+Patch 01 — navigation and search — round_counter: 1 — known limitations: [якоря на index.html не существуют, пагинация на крайних страницах ведет на Главную] — статус: approved
