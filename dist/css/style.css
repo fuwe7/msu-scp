@@ -17,9 +17,10 @@ body {
   margin: 0; padding: 0; background-color: var(--bg-color); 
   color: var(--text-main); font-family: var(--font-family); line-height: 1.6; 
 }
-.site-header { 
-  background-color: #000; color: #fff; padding: 1.5rem 2rem; 
-  border-bottom: 2px solid var(--accent-color); 
+.site-header {
+  background-color: #000; color: #fff; padding: 1.5rem 2rem;
+  border-bottom: 2px solid var(--accent-color);
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;
 }
 .site-footer { 
   background-color: #000; color: #fff; padding: 1rem 2rem; 
@@ -27,7 +28,7 @@ body {
 }
 .site-header a, .site-footer a { color: #ccc; text-decoration: none; }
 .site-header a:hover { color: #fff; text-decoration: underline; }
-.logo-container { border-bottom: 1px solid #444; padding-bottom: 0.5rem; margin-bottom: 0.5rem; }
+.logo-container { /* flex layout adjustment */ }
 .logo { font-size: 1.8rem; font-weight: bold; letter-spacing: 3px; color: var(--text-main); }
 .subtitle { font-size: 0.9rem; color: var(--text-muted); }
 .main-nav ul { list-style: none; padding: 0; display: flex; gap: 1.5rem; flex-wrap: wrap; }
@@ -56,3 +57,26 @@ h1, h2, h3 { border-bottom: 1px solid var(--border-color); padding-bottom: 0.3re
 .status-ok { color: var(--safe-color); font-weight: bold; }
 a { color: var(--text-main); text-decoration: underline; }
 a:hover { color: #fff; }
+
+/* CTA Button Styles */
+.cta-archive {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.cta-archive:hover,
+.cta-archive:focus-visible {
+  background-color: var(--accent-color);
+  color: #fff;
+  outline: none;
+}
