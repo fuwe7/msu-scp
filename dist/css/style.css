@@ -80,3 +80,37 @@ a:hover { color: #fff; }
   color: #fff;
   outline: none;
 }
+
+/* АРХИВНЫЕ ИЗОБРАЖЕНИЯ (Patch 03) */
+.archival-image {
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    background: #111;
+    border: 1px solid #333;
+    max-width: 100%;
+    text-align: center;
+}
+.archival-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(20%) contrast(110%);
+}
+.archival-image figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #888;
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+}
+.header-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}

@@ -47,3 +47,5 @@ Content: scp-msu-033-01.md — round_counter: 2 — known limitations: не по
 Patch 01 — navigation and search — round_counter: 1 — known limitations: [якоря на index.html не существуют, пагинация на крайних страницах ведет на Главную] — статус: approved
 
 Patch 02 — remove dead navigation and highlight Tale CTA — round_counter: 1 — known limitations: [якоря на index.html не существуют, пагинация на крайних страницах ведет на Главную] — статус: approved
+
+Patch 03 — images integration — round_counter: 1 — known limitations: [логотип может потребовать тонкой настройки отступов на мобильных, изображения вставлены без сложных галерей согласно задаче] — статус: approved

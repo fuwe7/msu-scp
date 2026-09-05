@@ -16,6 +16,11 @@
         <p><strong>Класс объекта:</strong> <span class="hazard-class class-смертельный">Смертельный</span></p>
         <p><strong>Уровень доступа:</strong> АЛЬФА-5</p>
       </div>
+
+      <figure class="archival-image">
+        <img src="../assets/images/msu-003.png" alt="Объект SCP-MSU-003">
+        <figcaption>Объект SCP-MSU-003. Класс опасности: Смертельный.</figcaption>
+      </figure>
       
       <section class="containment-procedures">
         <h2>Особые условия содержания:</h2>

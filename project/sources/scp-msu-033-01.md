@@ -14,6 +14,11 @@
         <p><strong>Класс объекта:</strong> <span class="hazard-class class-euclid">Евклид</span> <strong>[требует проверки lore_keeper]</strong></p>
         <p><strong>Уровень допуска:</strong> АЛЬФА-3</p>
       </div>
+
+      <figure class="archival-image">
+        <img src="../assets/images/msu-033-01.png" alt="Объект SCP-MSU-033-01">
+        <figcaption>Объект SCP-MSU-033-01 в изоляторе «Гамма». Класс опасности: Евклид.</figcaption>
+      </figure>
       <section class="containment-procedures">
         <h2>Особые условия содержания:</h2>
         <div class="content-block">

@@ -16,6 +16,11 @@
         <p><strong>Класс опасности:</strong> <span class="hazard-class class-euclid">Евклид</span></p>
         <p><strong>Уровень допуска:</strong> АЛЬФА-3</p>
       </div>
+
+      <figure class="archival-image">
+        <img src="../assets/images/msu-001.png" alt="Объект SCP-MSU-001">
+        <figcaption>Запись с нательной камеры разведчика. Объект SCP-MSU-001. Класс опасности: Евклид.</figcaption>
+      </figure>
       
       <section class="containment-procedures">
         <h2>Особые условия содержания:</h2>

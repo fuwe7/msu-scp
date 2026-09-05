@@ -22,6 +22,11 @@
       </div>
       
       <section class="general-info">
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-main.png" alt="Архивный снимок локации ЛП-17 («Цирк»)">
+        <figcaption>Архивный снимок локации ЛП-17 («Цирк»).</figcaption>
+      </figure>
         <h3>Общая информация</h3>
         <div class="content-block">
           <p>Локация «Цирк» представляет собой лиминальное пространство, возникающее исключительно в результате пространственной перемены типа «Сопряжение».</p>
@@ -100,20 +105,40 @@
 <p>Известные области:</p>
 
 <h4>Шапито</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-shapito.png" alt="Архивный снимок зоны «Шапито»">
+        <figcaption>Архивный снимок зоны «Шапито», центральной части пространства ЛП-17.</figcaption>
+      </figure>
 <p>Предположительно является центральной частью пространства.</p>
 <p>Назначение неизвестно. Обитают <a href="/pages/scp-msu-003.md">SCP-MSU-003</a>, <a href="/pages/scp-msu-003.md">SCP-MSU-003-1</a>, <a href="/pages/scp-msu-003.md">SCP-MSU-003-2</a> и <a href="/pages/scp-msu-009.md">SCP-MSU-009</a>.</p>
 <p><strong>Уровень опасности:</strong> Смертельный</p>
 
 <h4>Зверинец</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-zverinec.png" alt="Архивный снимок зоны «Зверинец»">
+        <figcaption>Архивный снимок зоны «Зверинец».</figcaption>
+      </figure>
 <p>[ДАННЫЕ УДАЛЕНЫ]</p>
 <p>Во время прошлых экспедиций фиксировались признаки присутствия <a href="/pages/scp-msu-001.md">SCP-MSU-001</a>.</p>
 <p><strong>Уровень опасности:</strong> Средний</p>
 
 <h4>Шатёр прорицательницы</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-shater-proritsatelnici.png" alt="Архивный снимок зоны «Шатёр прорицательницы»">
+        <figcaption>Архивный снимок зоны «Шатёр прорицательницы».</figcaption>
+      </figure>
 <p>Содержит большое количество символов и предсказаний.</p>
 <p><strong>Уровень опасности:</strong> Низкий</p>
 
 <h4>Зеркальный лабиринт</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-zerkalniy-labirint.png" alt="Архивный снимок зоны «Зеркальный лабиринт»">
+        <figcaption>Архивный снимок зоны «Зеркальный лабиринт».</figcaption>
+      </figure>
 <p>Нарушает восприятие пространства.</p>
 <p>Зафиксированы случаи появления альтернативных версий участников экспедиции.</p>
 <p><strong>Уровень опасности:</strong> Низкий</p>
@@ -124,15 +149,30 @@
 <p><strong>Уровень опасности:</strong> Неизвестен</p>
 
 <h4>Шатёр пожирателя огня</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-shater-pozhiratelya-ognya.png" alt="Архивный снимок зоны «Шатёр пожирателя огня»">
+        <figcaption>Архивный снимок зоны «Шатёр пожирателя огня».</figcaption>
+      </figure>
 <p>Характеризуется крайне высокой температурой воздуха при полном отсутствии источников горения.</p>
 <p><strong>Уровень опасности:</strong> Неизвестен</p>
 
 <h4>Логово заклинателя змей</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-logovo-zaklinatelya-zmei.png" alt="Архивный снимок зоны «Логово заклинателя змей»">
+        <figcaption>Архивный снимок зоны «Логово заклинателя змей».</figcaption>
+      </figure>
 <p>Наименее изученная часть пространства.</p>
 <p>Все три экспедиции, достигшие данной области, были потеряны.</p>
 <p><strong>Уровень опасности:</strong> Высокий</p>
 
 <h4>Балаган</h4>
+
+      <figure class="archival-image">
+        <img src="../assets/images/lp-17-balagan.png" alt="Архивный снимок зоны «Балаган»">
+        <figcaption>Архивный снимок зоны «Балаган».</figcaption>
+      </figure>
 <p>Был замечен <a href="/pages/scp-msu-004.md">SCP-MSU-004</a>, поведение неустойчивое.</p>
 <p><strong>Уровень опасности:</strong> Средний</p>
 

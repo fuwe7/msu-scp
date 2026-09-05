@@ -17,6 +17,11 @@
         <p><strong>Уровень опасности:</strong> Средняя</p>
         <p><strong>Уровень доступа:</strong> Уровень 3</p>
       </div>
+
+      <figure class="archival-image">
+        <img src="../assets/images/msu-004.png" alt="Объект SCP-MSU-004">
+        <figcaption>Объект SCP-MSU-004 в зоне «Балаган». Класс опасности: Евклид.</figcaption>
+      </figure>
       
       <section class="containment-procedures">
         <h2>Особые условия содержания</h2>

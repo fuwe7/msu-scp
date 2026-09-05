@@ -14,6 +14,11 @@
         <p><strong>Класс объекта:</strong> <span class="hazard-class class-lethal">Смертельный</span></p>
         <p><strong>Уровень допуска:</strong> АЛЬФА-4</p>
       </div>
+
+      <figure class="archival-image">
+        <img src="../assets/images/msu-009.png" alt="Объект SCP-MSU-009">
+        <figcaption>Объект SCP-MSU-009 под куполом «Шапито». Класс опасности: Смертельный.</figcaption>
+      </figure>
       <section class="containment-procedures">
         <h2>Особые условия содержания:</h2>
         <div class="content-block">
